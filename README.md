@@ -1,6 +1,6 @@
-# 🎵 Spotify Clone - Real-Time Music Streaming Platform
+# 🎵 Auralis - Real-Time Music Streaming Platform
 
-A modern full-stack Spotify-inspired music streaming application that delivers seamless music playback, secure authentication, real-time communication, and content management capabilities.
+A modern full-stack music streaming application that delivers seamless music playback, secure authentication, real-time communication, and content management capabilities.
 
 Built with React, Node.js, MongoDB, Socket.IO, and Clerk Authentication, the platform provides an engaging user experience while demonstrating scalable full-stack development practices.
 
@@ -109,7 +109,7 @@ Socket.IO Real-Time Server
 ## 📁 Project Structure
 
 ```text
-Spotify-Clone/
+Auralis/
 │
 ├── frontend/
 │   ├── src/
@@ -159,8 +159,8 @@ VITE_CLERK_PUBLISHABLE_KEY=
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/Spotify-Clone.git
-cd Spotify-Clone
+git clone https://github.com/Prince-Singh-1/Auralis.git
+cd Auralis
 ```
 
 ### Install Dependencies
@@ -220,5 +220,3 @@ This project demonstrates expertise in:
 ## 👨‍💻 Author
 
 Prince Singh
-
-
