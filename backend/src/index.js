@@ -82,6 +82,8 @@ if (process.env.NODE_ENV === "production") {
 
 // error handler
 app.use((err, req, res, next) => {
+	console.error("Server Error:", err.message);
+	console.error("Stack:", err.stack);
 	res.status(500).json({ message: process.env.NODE_ENV === "production" ? "Internal server error" : err.message });
 });
 
